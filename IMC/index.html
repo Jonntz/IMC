@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <br>
+    <section class="container">
+        <header>
+            <h1>Calculo de IMC</h1>
+        </header>
+        <main class="content">
+            <form>
+                <div class="form-group">
+                    <label for="peso">Peso:</label><br>
+                    <input type="text" name="peso" id="peso" placeholder="Digite aqui o seu peso" required>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="altura">Altura:</label><br>
+                    <input type="text" name="altura" id="altura" placeholder="Digite aqui a sua altura" required>
+                </div>
+
+                <button class="btn-calcular" id="calculo" onclick="calculaImc()">Calcular</button>
+            </form>
+            <br>
+            <div id="resultado" class="resultado">
+
+            </div>
+
+        </main>
+    </section>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
